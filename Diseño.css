@@ -1,0 +1,260 @@
+ /*selectores comunes*/
+        body{
+            width:750 px; 
+            height: 750px; margin:auto;
+            background-color: #EFF3FC }; 
+         } 
+        
+        p{font-family:serif;
+          text-align: center;
+        font-size: 20px;    
+        }
+        /*selectores de clase*/
+        
+        .Negro{
+            color:blanchedalmond;
+            font-family: fantasy;
+            font-size: 30px;
+            }
+        /*Selectores de id*/
+.logodelapagina{
+width: 135px;
+height: 135px;
+float: left;
+}
+
+        #paraDiv{ 
+            float: none;
+            height:135px;
+            background-color:#58828F;
+            color:white;
+            font-size: 65px;
+            font-family: serif;
+            
+        }
+        /*Selectores de grupo
+         h2, h3{
+            font-family: black;
+            font-size: 15px;
+            color:black;
+            
+        }*/
+/*Selectores de id para div*/
+#fondoDiv{
+}
+.imagen1{
+ width: 100%;
+    height: 25%}
+#menu{
+    background-color:#207194;
+}
+        #menu ul{
+        list-style:none; 
+       margin:0px;
+        padding:0px;
+}
+#menu ul li{
+    display:inline-block;
+   
+}
+#menu ul li a{
+    color:white;
+    text-decoration-color: none;
+    display:block;
+    padding: 10px  50px;
+ 
+}
+#menu ul li a:hover{
+    background-color: gainsboro;
+}
+.item-r{
+    float:left;
+}
+
+.slider {
+	width: 37%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 300%;
+	
+	animation: cambio 15s infinite alternate linear;
+}
+
+.slider li {
+	width: 90%;
+	list-style: none;
+}
+
+.slider img {
+	width: 90%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+/*principal: section:*/
+section { width: 75%; background-color:#D2DFFC ; float: left; }
+section h1 { text-align: center; padding: 0.5em; color: steelblue; font-size: 1.4em; }
+section h2 { text-align: center; padding: 0.5em; color: black; font-size: 1.2em; }
+section h3 { text-align: left; padding: 0.3em 3em; color: black; font-size: 1em;  }
+section p {text-align: justify;padding: 0.7em; margin: auto; color: black; font-size: 1.1em;}
+/*artículos: article*/
+article { margin: 0.5em 3em; padding: 0.5em 2em; background-color: #94CBD8 ; border: 2px solid white; }
+article p {text-align: justify; }
+article h1{color: #1C4A54}
+/*propaganda: aside*/
+aside { width: 25%; float: left; } 
+#anuncio1 { margin: 20px; padding: 10px; border: 2px solid #C2B688; background-color: #F7F6C3 ;}
+#anuncio1 h1 { font-size: 2.0em; text-align: center; padding: 0.2em 0em; color: black; }
+#anuncio1 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; color: dimgrey;} 
+#anuncio1 p { font-size: 0.9em; padding: 0.2em 1em; text-align: center; color: black}
+
+.libro{
+   height: 250px;
+   width: 170px;    
+}
+.colores{
+   height: 250px;
+   width: 200px;  
+}
+.mochila{
+   height: 250px;
+   width: 250px;
+}
+
+/*pie de página: footer*/
+footer { clear: both; background-color: #457882 ; }
+footer h1 { text-align: center; font-size: 1em; color: white; padding: 0.5em; }
+footer h2 { text-align: center; font-size: 1em; padding: 0.4em; }
+footer a { text-decoration: none; color: white; }
+
+
+/*propaganda: aside*/
+aside { width: 25%; float: left; list-style-type: none;} 
+#anuncio2 { margin: 20px; padding: 10px; border: 2px solid grey; background-color: #E5ECEE;}
+#anuncio2 h1 { font-size: 2.0em; text-align: center; padding: 0.2em 0em; color: grey; }
+#anuncio2 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; color: gray;} 
+#anuncio2 p { font-size: 0.9em; padding: 0.2em 1em; text-align: center; color: black}
+
+.Amazon{
+   height: 80px;
+   width: 100px;
+  
+}
+.Mercado{
+   height: 80px;
+   width: 100px;
+   
+}
+.Busca{
+   height: 100px;
+   width: 120px;
+   
+}
+
+.Gandhi{
+   height: 100px;
+   width: 120px;
+   
+}
+
+/*propaganda: aside*/
+aside { width: 25%; float: left; } 
+#anuncio3 { margin: 20px; padding: 10px; border: 2px solid grey; background-color: #F9F1C3;}
+#anuncio3 h1 { font-size: 2.0em; text-align: center; padding: 0.2em 0em; color: black; }
+#anuncio3 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; color: gray;} 
+#anuncio3 p { font-size: 0.9em; padding: 0.2em 1em; text-align: center; color: black}
+
+
+/*propaganda: aside*/
+aside { width: 25%; float: left; } 
+#anuncio4 { margin: 20px; padding: 10px; border: 2px solid grey; background-color: #E9F7BB;}
+#anuncio4 h1 { font-size: 2.0em; text-align: center; padding: 0.2em 0em; color: black; }
+#anuncio4 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; color: gray;} 
+#anuncio4 p { font-size: 0.9em; padding: 0.2em 1em; text-align: center; color: black}
+
+/*propaganda: aside*/
+aside { width: 25%; float: left; } 
+#anuncio5 { margin: 20px; padding: 10px; border: 2px solid grey; background-color: #C8E4EA;}
+#anuncio5 h1 { font-size: 2.0em; text-align: center; padding: 0.2em 0em; color: black; }
+#anuncio5 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; color: gray;} 
+#anuncio5 p { font-size: 0.9em; padding: 0.2em 1em; text-align: center; color: black}
+
+.ANUNCIODACO1{
+   height: 240px;
+   width: 270px;
+   align-content: center;
+}
+.ANUNCIODACO2{
+   height: 250px;
+   width: 270px;
+   align-content: center;
+}
+
+.ANUNCIODACO3{
+   height: 230px;
+   width: 270px;
+   align-content: center;
+}
+
+.ANUNCIODACO4{
+   height: 240px;
+   width: 270px;
+   align-content: center;
+}
+
+.ANUNCIODACO5{
+   height: 230px;
+   width: 270px;
+   align-content: center;
+}
+/*propaganda: aside*/
+aside { width: 25%; float: left; } 
+#anuncio6 { margin: 20px; padding: 10px; border: 2px solid grey; background-color: lightyellow;}
+#anuncio6 h1 { font-size: 2.0em; text-align: center; padding: 0.2em 0em; color: black; }
+#anuncio6 h2 { font-size: 1.5em; text-align: center; padding: 0.5em 0em; color: gray;} 
+#anuncio6 p { font-size: 0.9em; padding: 0.2em 1em; text-align: center; color: black}
+
+.MEDICINA1{
+   height: 230px;
+   width: 270px;
+   align-content: center;
+}
+.MEDICINA2{
+   height: 230px;
+   width: 270px;
+   align-content: center;
+}
+.MEDICINA3{
+   height: 230px;
+   width: 270px;
+   align-content: center;
+}
+.MEDICINA4{
+   height: 230px;
+   width: 270px;
+   align-content: center;
+}
+.MEDICINA5{
+   height: 230px;
+   width: 270px;
+   align-content: center;
+}
+
